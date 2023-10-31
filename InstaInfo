@@ -1,12 +1,13 @@
 #!/bin/bash
 echo -e "\e[32;1m--Instaling bot....\e[0m"
 apt install python -y
-pip inatall requests
+pip install requests
 pip install telebot
 pip install lolcat
 curl -LO https://raw.githubusercontent.com/Anon4You/Insta_info_bot/main/lib/test
 mv test instainfobot
 mv instainfobot $PATH
 chmod +x $PATH/instainfobot
-echo "rm $PATH/tok.py && instainfobot" > $PATH/revoke_token
+echo "rm $PATH/tok.py && instainfobot"> $PATH/revoke_token
 chmod +x $PATH/revoke_token
+echo -e "\n\n\a--installed now run the bot with 'instainfobot' command"
