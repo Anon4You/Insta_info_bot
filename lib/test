@@ -1,3 +1,4 @@
+#!/bin/python
 import os,sys,requests,telebot
 from subprocess import run
 logo="""\a\a
