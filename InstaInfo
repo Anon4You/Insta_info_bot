@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -e "\e[32;1m--Instaling bot....\e[0m"
+apt install python -y
+pip inatall requests
+pip install telebot
+pip install lolcat
