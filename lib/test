@@ -1,6 +1,7 @@
 #!/bin/python
 import os,sys,requests,telebot
 from subprocess import run
+os.system("clear")
 logo="""\a\a
 ⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣠⣴⣷⣶⣶⣤⣄⠀⠀⠀
 ⠀⠀⢀⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀
@@ -29,7 +30,7 @@ except:
   tok=input("\33[0mBot_Token : ")
   with open("tok.py","w") as xx:
     xx.write('tok='+'"'+tok+'"')
-os.system("mv tok.py $PATH")
+    os.system("mv tok.py $PATH")
 from tok import tok
 print("\33[32;1mBot started")
 bot=telebot.TeleBot(tok)
